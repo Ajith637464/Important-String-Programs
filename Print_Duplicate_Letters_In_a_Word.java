@@ -1,10 +1,10 @@
 /* Print_Duplicate_Letters_In_a_Word
 Input: Apple Ball Null Cat Owl
 Output: P
-		l
-		l
-		$
-		$
+	l
+	l
+	$
+	$
 */
 import java.util.Scanner;
 class Print_Duplicate_Letters_In_a_Word
