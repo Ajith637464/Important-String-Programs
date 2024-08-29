@@ -1,0 +1,30 @@
+import java.util.Scanner;
+class StringReverse 
+{
+	public static String solve(String s) 
+	{
+		String res="";
+		String [] str=s.split(" ");
+		String sss="";
+		for (int i=0;i<str.length ;i++ )
+		{
+			String ss=str[i];
+			for (int j=ss.length()-1;j>=0 ;j-- )
+			{
+				res+=ss.charAt(j);
+			}
+			res+=" ";
+		}
+		return res;
+	}
+	static Scanner sc = new Scanner (System.in);
+	public static void main(String[] args) 
+	{
+		System.out.print("Input: ");
+		String s=sc.nextLine();
+		
+		String res=solve(s);
+		System.out.println("Output: "+res);
+
+	}
+}
