@@ -1,9 +1,9 @@
 /* Count_Upper_Lower_SpecialChars_Integers
 Input: A$abcDM87bc
 Output: Uppercase: 3
-		Lowercase: 5
-		Speialchars: 1
-		Integers: 2
+	Lowercase: 5
+	Speialchars: 1
+	Integers: 2
 */
 import java.util.Scanner;
 class Find_Frequency_Of_The_String
@@ -35,6 +35,5 @@ class Find_Frequency_Of_The_String
 		String s=sc.nextLine();
 		
 		solve(s);
-
 	}
 }
