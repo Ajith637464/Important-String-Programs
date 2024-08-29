@@ -1,8 +1,8 @@
 /* Find_Frequency_Of_The_String
 Input: javajava
 Output: j : 2
-		a : 4
-		v : 2
+	a : 4
+	v : 2
 */
 import java.util.Scanner;
 class Find_Frequency_Of_The_String
