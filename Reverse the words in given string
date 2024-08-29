@@ -1,3 +1,7 @@
+/*
+input: I LOVE INDIA
+Output: I EVOL AIDNI
+*/
 import java.util.Scanner;
 class StringReverse 
 {
