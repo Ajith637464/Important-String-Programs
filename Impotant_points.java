@@ -41,5 +41,31 @@ class Impotant_points
 
 		//char number to integer    ('2' ---> 2 )
 		        int n=(int)(s.charAt(i)-48)
+
+		String a="Tutor Joes";	
+		String b="tutor Joes";
+		System.out.println("A : "+a);
+		System.out.println("B : "+b);
+		System.out.println("A Hashcode : "+a.hashCode());
+		System.out.println("B Hashcode : "+b.hashCode());
+		System.out.println("Equals : "+a.equals(b));
+		System.out.println("Equals Ignore Case : "+a.equalsIgnoreCase(b));
+		System.out.println("Length : "+a.length());
+		System.out.println("CharAt : "+a.charAt(0));
+		System.out.println("to Upper Case : "+a.toUpperCase());
+		System.out.println("to Lower Case : "+a.toLowerCase());
+		System.out.println("Replace : "+a.replace("Joes","Stanly"));
+		System.out.println("Contains : "+a.contains("Tutor"));
+		System.out.println("is Empty : "+a.isEmpty());
+		System.out.println("starts With : "+a.startsWith("Tut"));
+		System.out.println("ends With : "+a.endsWith("oes"));
+		System.out.println("sub string : "+a.substring(5));
+		System.out.println("sub string : "+a.substring(0,5));
+		System.out.println("to CharArray : ");
+		char[]ch=a.toCharArray();
+		System.out.println("a: "+Arrays.toString(ch));
+		String c=" Tutor ";
+		System.out.println("before trim length: "+c.length()); //7
+		System.out.println("trim : "+c.trim().length()); ///5
 	}
 }
